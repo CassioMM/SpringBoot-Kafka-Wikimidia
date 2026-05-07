@@ -6,8 +6,6 @@ import com.launchdarkly.eventsource.HttpConnectStrategy;
 import com.launchdarkly.eventsource.background.BackgroundEventHandler;
 import com.launchdarkly.eventsource.background.BackgroundEventSource;
 import okhttp3.Headers;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
